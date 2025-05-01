@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "@wix/cli": "^1.0.0",
+    "@wix/eslint-plugin-cli": "^1.0.0",
+    "eslint": "^8.25.0",
+    "react": "16.14.0"
+  },
+  "dependencies": {
+    "react": "19.1.0",
+    "@wix/react-velo": "1.0.51",
+    "wix-style-react": "10.173.2",
+    "@misonou/react-dom-client": "1.1.2"
+  },
+  "scripts": {
+    "postinstall": "wix sync-types",
+    "dev": "wix dev",
+    "lint": "eslint ."
+  }
+}
